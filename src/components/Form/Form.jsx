@@ -30,7 +30,7 @@ function Form() {
             </section>
             <button id="calculateButton" className='form__button'
             onClick={ () => {
-                const sumToPay = ((((sum * tip ) + sum)  / numberOfFriends).toFixed(2));
+                const sumToPay = (((sum * tip ) + sum)  / numberOfFriends);
                 log ()
                 console.log('Varje person ska betala ' + Number(sumToPay) +' kr')
             } }>Räkna</button>
